@@ -20,7 +20,7 @@ public class SortTheMapByValues {
 
         ArrayList<Integer> list = new ArrayList<>(map.values());
         SortingInAscending.SortNums(list);
-        System.out.println(list); //[1, 19, 23, 90, 112]
+        System.out.println(list); // [1, 19, 23, 90, 112]
 
 
         Map<String, Integer> sortValue = new LinkedHashMap<>();

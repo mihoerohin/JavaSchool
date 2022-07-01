@@ -19,6 +19,5 @@ public class RemoveSomeValues {
 
          list.removeIf(n -> n > 100);   /////   remove all values greater than 100.
          System.out.print("list = " + list);
-
      }
 }

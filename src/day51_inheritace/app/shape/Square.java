@@ -3,10 +3,12 @@ package day51_inheritace.app.shape;
 public class Square extends Shape {
     double side;
 
+
     public Square (double side){
         super("Square");
         this.side = side;
     }
+
     @Override
     public double area(){
         return  side * side;

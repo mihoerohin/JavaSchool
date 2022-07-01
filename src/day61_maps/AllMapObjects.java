@@ -8,20 +8,20 @@ public class AllMapObjects {
 
     public static void main(String[] args) {
 
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> hashMap = new HashMap<>();
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-        map.put("saim", "java");
-        map.put("hello", "world");
-        map.put("james", "bond");
-        map.put("aysun", "ui testing");
-        map.put("nadir", "soft skills");
-        map.put("username", "password1");
-        map.put(null, "nothing");
-        map.put("username", "password2");
-        map.put("username", "password3");
-        map.put("nothing", null);
-        System.out.println(map);
+        hashMap.put("saim", "java");
+        hashMap.put("hello", "world");
+        hashMap.put("james", "bond");
+        hashMap.put("aysun", "ui testing");
+        hashMap.put("nadir", "soft skills");
+        hashMap.put("username", "password1");
+        hashMap.put(null, "nothing");
+        hashMap.put("username", "password2");
+        hashMap.put("username", "password3");
+        hashMap.put("nothing", null);
+        System.out.println("HashMap = " + hashMap);
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
@@ -33,7 +33,7 @@ public class AllMapObjects {
         linked.put("nadir", "soft skills");
         linked.put("username", "password");
         linked.put(null, "nothing");
-        System.out.println(linked);
+        System.out.println("linked = " + linked);
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
@@ -45,7 +45,7 @@ public class AllMapObjects {
         treeMap.put("nadir", "soft skills");
         treeMap.put("username", "password");
       //  treeMap.put(null, "nothing"); ThreeMap objects cannot have null KEY
-        System.out.println(treeMap);
+        System.out.println("treeMap = " + treeMap);
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
@@ -57,11 +57,7 @@ public class AllMapObjects {
         hashtable.put("nadir", "soft skills");
         hashtable.put("username", "password");
          //  hashtable.put(null, "nothing");   Hashtable objects cannot have null KEY and VALUE
-        System.out.println(hashtable);
-
-
-
-
+        System.out.println("hashtable = " + hashtable);
 
 
     }
