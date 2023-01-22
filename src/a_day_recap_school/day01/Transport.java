@@ -55,4 +55,5 @@ public class Transport {
     class Test1{
     int one;
     int two;
+    int three;
     }
