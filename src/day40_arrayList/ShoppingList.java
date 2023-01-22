@@ -7,6 +7,7 @@ public class ShoppingList {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+
         ArrayList<String> shoppingList = new ArrayList<>();
 
         System.out.println(shoppingList.isEmpty() ? "Shopping list Empty" : "You have some items");

@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class ArrayUtil {
 
-
-
-    
            // MIN number //
 
     public static int minNumber(int [] nums){
@@ -47,6 +44,7 @@ public class ArrayUtil {
 
 
     public static int [] addElement(int [] original, int [] elementsToAdd) {
+
         int[] newArray = new int[original.length + elementsToAdd.length];
 
         for (int i = 0, j = 0; i < newArray.length; i++) {

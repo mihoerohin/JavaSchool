@@ -5,6 +5,9 @@ public interface Mac {
     String NAME = "Mac"; // public static final variables
     String OS = "IOS";
 
+    int LOLA = 0;
+    
+
     void turnOn(); // public abstract
 
 

@@ -26,6 +26,10 @@ Message: actualMessage”
         System.out.println("Number: " + msg.substring(numberStart + 1, numberEnd));
         System.out.println("Message: " + msg.substring(msgStart + 1, msgEnd));
 
+        String msg2 = "     Sender: <James Bond>. From Number: [202-123-3456]. + Message: {I love programming and problem solving}  ";
+
+        System.out.println(msg2.trim());
+
 
     }
 }

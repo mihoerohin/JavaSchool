@@ -13,13 +13,13 @@ public class MoveZerosToTheEnd {
 
     public static void main(String[] args) {
 
-        int[] nums = {1,0,2,0,3,0,4,0};
+        int[] nums = {0,1,0,2,0,3,0,4,0};
 
         int[] result = new int[nums.length-1];
         int index = 0;
 
         for (int i = 0; i < nums.length; i++) {
-            if(nums[i]>0){
+            if(nums[i] != 0){
                 result[index] = nums[i];
                 index++;
             }

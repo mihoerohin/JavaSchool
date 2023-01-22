@@ -6,7 +6,9 @@ import java.util.Collections;
 
 public class RemoveDuplicateNumbers {
     public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> numbers){
+
         numbers.removeIf(num -> Collections.frequency(numbers, num)>1);
+
         return numbers;
     }
 

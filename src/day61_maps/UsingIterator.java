@@ -17,7 +17,7 @@ public class UsingIterator {
         System.out.println(it.next()); // move the pin, and return element
         System.out.println(it.next()); // move the pin, and return element
        //  System.out.println(it.next()); // No Such Element Exception
-        System.out.println(names );
+        System.out.println(names);
 
 
 

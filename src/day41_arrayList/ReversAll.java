@@ -14,7 +14,6 @@ public class ReversAll {
 
         for (String each : list){
             reverseWord.add(StringUtil.reverse(each));
-
         }
         return reverseWord;
     }

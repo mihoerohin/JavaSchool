@@ -33,11 +33,8 @@ public class ClassRoom {
         for (int keys : map.keySet()) {
             System.out.println("Rank " + keys);
             System.out.println(map.get(keys));
-            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-
         }
 
-        System.out.println(map.values());
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 

@@ -29,8 +29,6 @@ public class RemoveByObject {
         nums.remove((Integer) 800);
         System.out.println(nums + " V5");
 
-
-
         ArrayList<Integer> num2 = new ArrayList<>();
         num2.add(100);
         num2.add(200);

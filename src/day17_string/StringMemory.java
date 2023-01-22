@@ -4,14 +4,28 @@ public class StringMemory {
     public static void main(String[] args) {
         String first = "java";
         String second = new String("java");
-
-        System.out.println(first == second);
-
         String third = "java";
-        System.out.println(first == third);
+        String fourth = new String("java");
 
-        String fourth = "Java";
-        System.out.println(first == fourth);
+        System.out.println(first == second);// false
+        System.out.println(first == third); // true
+        System.out.println(first == fourth); // false
+        System.out.println(second == fourth); // false
+        System.out.println(first.equals(second)); // true
+        System.out.println(second.equals(fourth)); // true
+
+        String str = "dog";
+
+        System.out.println(str); // dog
+
+        System.out.println(str.concat(" cat"));
+
+        System.out.println(str);
+
+
+
+
+
 
     }
 }

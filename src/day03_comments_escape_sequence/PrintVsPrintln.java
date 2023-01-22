@@ -5,8 +5,8 @@ public class PrintVsPrintln {
         System.out.println("apples");
         System.out.println("pears");
 
-        System.out.print("bananas ");
-        System.out.print("lemons");
+        System.out.print("==> bananas ");
+        System.out.print("lemons <==");
 
         System.out.println();
         System.out.println("orange");

@@ -12,6 +12,7 @@ public class JoinExample {
         System.out.println(String.join("<>", words));
         System.out.println(String.join(" to " , words));
         System.out.println(String.join("\n", words));
+        System.out.println(String.join("!!!!!!!!!!!!!", words));
 
 
     }

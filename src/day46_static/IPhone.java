@@ -3,7 +3,6 @@ package day46_static;
 public class IPhone {
     String model;
     double price;
-
     static String company;
     static String os;
 

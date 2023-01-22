@@ -4,7 +4,6 @@ public class Contains {
     public static void main(String[] args) {
 
         String day = "Today it is above 70";
-        System.out.println(day.contains("it is"));      // true
         System.out.println(day.contains("0"));      // true
         System.out.println(day.contains(" "));      // true
         System.out.println(day.contains("o"));      // true

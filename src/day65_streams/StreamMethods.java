@@ -57,9 +57,5 @@ public class StreamMethods {
         System.out.println(Arrays.stream(str.split("")).distinct().collect(Collectors.toList()));   // [a, b, c, d, e]
         System.out.println(Arrays.stream(str.split("")).distinct().count());                        // 5
 
-
-
-
-
     }
 }

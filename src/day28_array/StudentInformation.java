@@ -11,6 +11,7 @@ public class StudentInformation {
         System.out.println(Arrays.toString(studentOne));
 
         String [] studentTwo = new String[4];
+        int[] arr = new int[22];
 
         System.out.println(Arrays.toString(studentTwo));
 

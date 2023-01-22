@@ -15,16 +15,16 @@ public class RecapTry {
             s.toLowerCase();
 
         }catch (IndexOutOfBoundsException e){
-            System.out.println("Index Out Of Bounds catch block");
+            System.out.println("====>Index Out Of Bounds catch block");
             System.out.println(e.getMessage());
         }catch (NullPointerException e){
-            System.out.println("Null Pointer Exception");
+            System.out.println("---> Null Pointer Exception");
             System.out.println(e.getMessage());
         }
-
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println(list);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-        System.out.println();
 
         try{
             Thread.sleep(-3000);

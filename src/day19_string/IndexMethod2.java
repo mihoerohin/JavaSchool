@@ -8,7 +8,7 @@ public class IndexMethod2 {
         String s = "java";
         System.out.println(s.indexOf('d'));
         System.out.println(s.lastIndexOf('a'));
-        System.out.println(s.indexOf('v'));
+        System.out.println("#" + s.indexOf('v'));
         System.out.println(s.lastIndexOf('v'));
         System.out.println(s.indexOf('w'));
         System.out.println(s.lastIndexOf('p'));
@@ -17,10 +17,10 @@ public class IndexMethod2 {
         System.out.println(s2.indexOf('b'));
         System.out.println(s2.lastIndexOf('b'));
 
-        System.out.println(s2.indexOf("cb"));
+        System.out.println("@@" + s2.indexOf("cb"));
 
          String str = "12breadjambread";
-        System.out.println(str.substring(2 + 5, 10));
+        System.out.println(str.substring(5, 10));
 
         System.out.println(str.lastIndexOf("bread"));
 

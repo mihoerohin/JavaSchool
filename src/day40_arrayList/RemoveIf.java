@@ -20,5 +20,9 @@ public class RemoveIf {
         days.removeIf(day -> day.startsWith("S") || day.startsWith("T"));
         System.out.println(days);
 
+        ArrayList<String> count = ArrayListWithMethods.getDaysOfWeek();
+        count.removeIf(w -> w.length() > 6 );
+        System.out.println(count);
+
     }
 }

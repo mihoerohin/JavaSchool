@@ -5,6 +5,10 @@ public class PersonObject {
 
         Person obj = new Person();
         obj.setAge(22);
+
+
+
+
         try {
             obj.setName("Bond James");
         }catch (Exception e){

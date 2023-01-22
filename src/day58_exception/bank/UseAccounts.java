@@ -11,7 +11,6 @@ public class UseAccounts {
         accountOne.withdraw(22);
         System.out.println(accountOne.balance);
 
-
         //////////////////////LOGIN////////////////////////////
         try {
             accountOne.login("jamesbond", "007");

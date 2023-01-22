@@ -34,8 +34,8 @@ public class ZombieAttack22 {
 
             System.arraycopy(arr, 0, inhabitants, 0, arr.length); // for (int a = 0; a < arr.length; a++) { inhabitants[a] = arr[a];}
             System.arraycopy(arr, 0, arr2, 0, arr.length);
-
             Arrays.sort(arr2);
+
             if (arr2[arr2.length - 1] == 0) {
                 System.out.println("Day " + (i+1) + " " + Arrays.toString(inhabitants));
                 System.out.println("---- EXTINCT ----");

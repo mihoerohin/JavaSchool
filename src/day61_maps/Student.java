@@ -5,8 +5,6 @@ public class Student {
     String name;
     double gpa;
     int id;
-
-
     public Student(String name, double gpa, int id) {
         this.name = name;
         this.gpa = gpa;

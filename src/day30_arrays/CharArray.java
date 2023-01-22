@@ -12,11 +12,9 @@ public class CharArray {
         char [] java = word.toCharArray();
 
         System.out.println(Arrays.toString(letters));
-        System.out.println(Arrays.toString(java));
+        System.out.println("@" + Arrays.toString(java));
 
-        for (char eachChar : java){
-            System.out.println(eachChar);
-        }
+
 
 
 

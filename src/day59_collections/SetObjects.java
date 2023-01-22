@@ -16,7 +16,7 @@ public class SetObjects {
         set3.add("100%");
         System.out.println(set3);
 
-        Set<String> set = new HashSet<>();
+        Set<String> set = new HashSet<>();  // REMOVE FIRST ELEMENT
         set.add(null);
         set.add("hello");   // duplicate not allowed
         set.add("$4.5");
@@ -27,7 +27,7 @@ public class SetObjects {
         set.add("100%");
         System.out.println(set);
 
-        Set<String> set2 = new LinkedHashSet<>();
+        Set<String> set2 = new LinkedHashSet<>(); // CAN'T ADD NEW ELEMENT
         set2.add(null);
         set2.add("hello");
         set2.add("$4.5");

@@ -9,48 +9,43 @@ public class CountCharacters {
         Boolean word = false;
         boolean number1 = false;
 
-            if (Character.isDigit(s.charAt(0))) {
-                word = true;
-            }
-                    System.out.println(word);
+        if (Character.isDigit(s.charAt(0))) {
+            word = true;
+        }
+        System.out.println(word);
 
-
-
-            if(Character.isLetter(s.charAt(s.length()-1))) {
-                number1 = true;
-            }
+        if (Character.isLetter(s.charAt(s.length() - 1))) {
+            number1 = true;
+        }
         System.out.println(number1);
 
 
+        int upper = 0, lower = 0, number = 0, other = 0;
+        String upperCase = "";
 
+        for (int i = 0; i < s.length(); i++) {
 
+            char letter = s.charAt(i);
 
-                    int upper = 0, lower = 0, number = 0, other = 0;
-                    String upperCase = "";
+            if (Character.isUpperCase(letter)) {
+                upper++;
+                upperCase += letter + " ";
 
-                    for (int i = 0; i < s.length(); i++) {
+            } else if (Character.isLowerCase(letter)) {
+                lower++;
 
-                        char letter = s.charAt(i);
+            } else if (Character.isDigit(letter)) {
+                number++;
 
-                        if (Character.isUpperCase(letter)) {
-                            upper++;
-                            upperCase += letter + " ";
+            } else {
+                other++;
+            }
+        }
 
-                        } else if (Character.isLowerCase(letter)) {
-                            lower++;
-
-                        } else if (Character.isDigit(letter)) {
-                            number++;
-
-                        } else {
-                            other++;
-                        }
-                    }
-
-                    System.out.println("Upper case: " + upper);
-                    System.out.println("Upper case: " + upperCase);
-                    System.out.println("Lower case: " + lower);
-                    System.out.println("Numbers: " + number);
-                    System.out.println("Other: " + other);
+        System.out.println("Upper case: " + upper);
+        System.out.println("Upper case: " + upperCase);
+        System.out.println("Lower case: " + lower);
+        System.out.println("Numbers: " + number);
+        System.out.println("Other: " + other);
     }
 }

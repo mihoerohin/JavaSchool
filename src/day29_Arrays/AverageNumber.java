@@ -4,6 +4,7 @@ public class AverageNumber {
     public static void main(String[] args) {
 
           int [] nums = {15, 11, 8, 4, 2};
+
           int sum = 0;
 
           for(int i = 0; i < nums.length; i++){

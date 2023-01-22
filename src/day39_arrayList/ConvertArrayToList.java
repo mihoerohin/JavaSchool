@@ -2,6 +2,7 @@ package day39_arrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ConvertArrayToList {
     public static void main(String[] args) {
@@ -14,7 +15,6 @@ public class ConvertArrayToList {
         ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(arr));
 
         System.out.println(nums + " v2");
-
 
         ArrayList<Integer> other = new ArrayList<>(Arrays.asList(4,5,6,7));
         System.out.println(other + " v3 new with .asList");

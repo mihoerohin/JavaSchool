@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class RemoveCountries {
+
     public static ArrayList<String> removeCountries(ArrayList<String> countries){
         countries.removeIf(country->country.length() >= 7);
         return countries;

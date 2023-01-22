@@ -22,9 +22,19 @@ public class DataBaseExample {
         list.add(map);
         list.add(makeMap("Shina", null, "23"));
 
-        System.out.println(list.get(0).get("FIRST_NAME"));
-        System.out.println(list.get(0).get("LAST_NAME"));
 
+        System.out.println(list); // [{BATCH=007, LAST_NAME=Bond, FIRST_NAME=James}, {BATCH=23, LAST_NAME=null, FIRST_NAME=Shina}]
+        System.out.println(list.get(0)); // {BATCH=007, LAST_NAME=Bond, FIRST_NAME=James}
+        System.out.println(list.get(1)); // {BATCH=23, LAST_NAME=null, FIRST_NAME=Shina}
+
+        System.out.println(list.get(0).get("FIRST_NAME")); // James
+        System.out.println(list.get(0).get("LAST_NAME")); // Bond
+        System.out.println(list.get(0).get("BATCH")); // 007
+
+        System.out.println(list.get(1).get("FIRST_NAME")); // Shina
+        System.out.println(list.get(1).get("LAST_NAME")); // null
+        System.out.println(list.get(1).get("BATCH")); // 23
+        
 
 
     }

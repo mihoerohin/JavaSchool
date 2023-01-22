@@ -18,11 +18,9 @@ public class Bank {
             throw new InvalidCredentialsException("Invalid username");
         }
 
-
         if(!password.equals("007")){
             throw  new InvalidCredentialsException("Invalid password");
         }
-
         System.out.println("LOGIN");
     }
 

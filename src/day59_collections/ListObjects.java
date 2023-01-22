@@ -17,6 +17,8 @@ public class ListObjects {
         System.out.println(list);
         System.out.println(list.get(3));
 
+
+
         List<String>list2 = new LinkedList<>();
         list2.add("a");
         list2.add("b");

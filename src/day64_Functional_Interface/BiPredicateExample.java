@@ -20,6 +20,9 @@ public class BiPredicateExample {
         System.out.println(contains.test(arr,24));  // false
         System.out.println(contains.test(arr, 99));  // true
 
+        Integer[] arr2 = {3,1,4,5,2,6,3,33,55};
+        System.out.println(Arrays.asList(arr2));
+
 
 
 

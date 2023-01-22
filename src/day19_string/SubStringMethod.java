@@ -13,11 +13,10 @@ public class SubStringMethod {
         System.out.println("Satur" + str.substring(3));
 
         System.out.println(str.substring(2, 4));
-        
+        System.out.println("@ " + str.substring(2, 3)); // n
+
         System.out.println(str.substring(0, 6));
         System.out.println(str.substring(3, 6));
-
-
 
 
     }

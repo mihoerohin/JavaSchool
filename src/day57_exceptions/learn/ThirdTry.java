@@ -17,8 +17,7 @@ public class ThirdTry {
 
             System.out.println("Result ==> " + num1/num2);
 
-        }catch (InputMismatchException obj
-        ){
+        }catch (InputMismatchException obj){
             obj.printStackTrace();
         }catch (ArithmeticException e){
             System.out.println(e.getMessage());
